@@ -2,17 +2,20 @@
   "name": "ts-logger",
   "version": "1.0.0",
   "description": "Alternative logger like winston",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "install": "npm run build",
-    "build": "tsc"
+    "prepare": "tsc"
   },
   "keywords": [
     "typescript",
     "ts",
     "logger"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vkrenta/ts-logger.git"
+  },
   "author": "vkrenta",
   "license": "ISC",
   "dependencies": {},
