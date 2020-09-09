@@ -5,8 +5,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "install": "npm run build",
-    "build": "tsc"
+    "postinstall": "tsc"
   },
   "keywords": [
     "typescript",
