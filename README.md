@@ -9,6 +9,8 @@ npm i https://github.com/vkrenta/ts-logger
 Create new logger
 
 ```typescript
+import { Logger } from 'ts-logger';
+
 const logger = new Logger()
   .Console()
   .setFormat(
