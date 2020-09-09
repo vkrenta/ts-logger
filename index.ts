@@ -66,7 +66,7 @@ export class Logger {
       if (!!filePath)
         promises.appendFile(
           filePath,
-          `${text} ${JSON.stringify(message, null, ' ')}\n`
+          `${text} ${JSON.stringify(message, null, '  ')}\n`
         );
     });
   }
