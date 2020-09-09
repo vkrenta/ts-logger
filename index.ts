@@ -24,7 +24,7 @@ function logFunc(level: Level) {
         this.format({ level, label, timestamp: new Date() }),
         message
       );
-    else throw Error('Formatter must be initializied!');
+    else throw Error('Formatter must be initialized');
     return this;
   };
 }
@@ -66,7 +66,7 @@ export class Logger {
       if (!!filePath)
         promises.appendFile(
           filePath,
-          `${text}  ${JSON.stringify(message, null, '  ')}\n`
+          `${text}  ${JSON.stringify(message, null, ' ')}\n`
         );
     });
   }
